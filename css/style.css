@@ -28,20 +28,17 @@ body {
 }
 
 .container-logo {
-  /* position: absolute;
-  /* top: 50%
-  left: 50%;
-  transform: translate(-50%,-50%); */
-  /* text-align: center; */
-}
-
-.container-logo img {
-  height: 200px;
   position: absolute;
+  height: 250px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.container-logo img {
+  height: 200px;
+  width: 100%;
 }
 
 .container-logo h1 {
@@ -52,15 +49,24 @@ body {
 }
 
 .header-bottom {
-  background-color: pink;
-  height: 50px;
+  background-color: grey;
+  height: 40px;
+  line-height: 40px;
 }
 .header-bottom nav ul {
   list-style: none;
+  text-align: center;
 }
 
 .header-bottom nav ul li {
   display: inline-block;
+}
+
+.header-bottom nav ul li a {
+  display: inline-block;
+  padding: 0 5px;
+  background-color: darkgrey;
+  float: right;
 }
 
 .main {
